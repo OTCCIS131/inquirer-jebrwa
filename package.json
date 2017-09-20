@@ -1,0 +1,25 @@
+{
+  "name": "inquirer-jebrwa",
+  "version": "1.0.0",
+  "description": "A user executes the program\r     They are greeted with a friendly message from \"My Super Awesome Pizza Co.\"\r     They are asked which size pizza they'd like\r     They are asked which toppings they'd like\r     They are asked how they'd like it cut\r     Their order is repeated back to them with pretty colors\r     The program exits",
+  "main": "inquirer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OTCCIS131/inquirer-jebrwa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OTCCIS131/inquirer-jebrwa/issues"
+  },
+  "homepage": "https://github.com/OTCCIS131/inquirer-jebrwa#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "inquire": "^0.4.8",
+    "inquirer": "^3.3.0",
+    "save": "^2.3.1"
+  }
+}
