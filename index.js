@@ -30,9 +30,10 @@ message:"How would you like me to cut your pizza? ",
 inquirer.prompt(questions).then(function({number, size, toppings, cut}){
 console.log("Your Order is complete,") 
 console.log("You Ordered " + number + " Pizza's")
-console.log("Pizza Size " + size)
-console.log("The topping(s) for your pizza are " + toppings)
+console.log("Pizza Size Is " + size)
+console.log("The topping(s) for your pizza " + toppings)
 console.log("I will cut your pizza in the style of " + cut + " cut")
+console.log("Thank you! Come Back To Moochies Pizza Soon!")
 })
 
 
